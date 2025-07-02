@@ -3,23 +3,58 @@ html
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SnapLive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SnapLive - Video & Audio Calls</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<main>
-  <section>
-    <h2>Welcome and Hello</h2>
-    <p>SnapLive is the easiest way to watch live.</p>
-    <button>Get Started</button>
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2025 SnapLive. All rights reserved.</p>
-</footer>
-
+  <main>
+    <h2>Welcome to SnapLive</h2>
+    <p>Connect instantly with video & audio calls, private chats, group chats, and live streams.</p>
+    <button onclick="alert('Get Started!')">Get Started</button>
+  </main>
+  <footer>
+    <p>©️ 2025 SnapLive. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+```
+
+*style.css:*
+
+```css
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;  /* Dark mode background */
+  color: #e0e0e0;             /* Light text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+  text-align: center;
+}
+
+h2 {
+  color: #00bfff;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #00bfff;
