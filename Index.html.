@@ -1,0 +1,31 @@
+html
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapLive</title>
+</head>
+<body>
+  <header>
+    <h1>Maraba zuwa SnapLive</h1>
+    <nav>
+      <a href="#">Gida</a>
+      <a href="#">Game da mu</a>
+      <a href="#">Saduwa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Fara Kallo Kai Tsaye</h2>
+      <p>SnapLive shine mafi saukin hanya don kallon bidiyo kai tsaye a intanet.</p>
+      <button>Fara Yanzu</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SnapLive. Duk haƙƙin mallaka.</p>
+  </footer>
+</body>
+</html>
