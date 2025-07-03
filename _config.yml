@@ -1,0 +1,5 @@
+title: SnapLive Website
+description: A simple Jekyll site
+baseurl: "/SnapLive-website"
+theme: minima
+
